@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "lib": [
+            "es2017",
+        ],
+        "allowJs": true,
+        "jsx": "react-native",
+        "sourceMap": true,
+        "outDir": "./build",
+        "strict": true,
+        "baseUrl": ".",
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "types": [
+            "react",
+            "react-native",
+            "node"
+        ],
+    },
+    "exclude": [
+        "build",
+        "index.js",
+        "node_modules",
+        "ios",
+        "android",
+        "assets",
+        "__test__"
+    ],
+    "include": [
+        "src/**/*",
+        "./App.tsx"
+    ],
+}
